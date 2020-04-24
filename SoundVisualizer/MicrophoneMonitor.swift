@@ -21,12 +21,12 @@ class MicrophoneMonitor {
     
     var soundSamples: [Float]
     
-    init(numberOfSamples: Int, view: UIView) {
+    init(numberOfSamples: Int, vc: UIViewController) {
         self.numberOfSamples = numberOfSamples
         self.soundSamples = [Float](repeating: .zero, count: numberOfSamples)
         self.currentSample = 0
         
-        self.visualizeView = view
+        self.visualizeVC = vc
         
         setupAudioSession()
     }
