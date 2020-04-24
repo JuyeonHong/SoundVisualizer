@@ -13,6 +13,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var visualizeView: UIView!
     
+    var recordValueArray = [Float](repeating: .zero, count: 10)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

@@ -13,6 +13,7 @@
 		57CF3E3224518D4300418E4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CF3E3024518D4300418E4C /* Main.storyboard */; };
 		57CF3E3424518D4500418E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CF3E3324518D4500418E4C /* Assets.xcassets */; };
 		57CF3E3724518D4500418E4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CF3E3524518D4500418E4C /* LaunchScreen.storyboard */; };
+		57CF3E412452690D00418E4C /* MicrophoneMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CF3E402452690D00418E4C /* MicrophoneMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		57CF3E3324518D4500418E4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57CF3E3624518D4500418E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57CF3E3824518D4500418E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CF3E402452690D00418E4C /* MicrophoneMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				57CF3E2C24518D4300418E4C /* SceneDelegate.swift */,
 				57CF3E2E24518D4300418E4C /* ViewController.swift */,
 				57CF3E3024518D4300418E4C /* Main.storyboard */,
+				57CF3E402452690D00418E4C /* MicrophoneMonitor.swift */,
 				57CF3E3324518D4500418E4C /* Assets.xcassets */,
 				57CF3E3524518D4500418E4C /* LaunchScreen.storyboard */,
 				57CF3E3824518D4500418E4C /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				57CF3E2F24518D4300418E4C /* ViewController.swift in Sources */,
 				57CF3E2B24518D4300418E4C /* AppDelegate.swift in Sources */,
+				57CF3E412452690D00418E4C /* MicrophoneMonitor.swift in Sources */,
 				57CF3E2D24518D4300418E4C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
